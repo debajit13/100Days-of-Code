@@ -1,10 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Aug 28 18:58:47 2019
-
-@author: Debajit
-"""
-
 import time
 import os
 import pandas
