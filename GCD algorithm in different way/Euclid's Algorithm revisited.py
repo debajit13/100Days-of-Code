@@ -1,5 +1,5 @@
 def gcd(m,n):
-    if m < n: #Assume m>=n
+    if m < n: # Assume m>=n
         (m,n) = (n,m)
 
     while(m%n) != 0:
