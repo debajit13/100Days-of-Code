@@ -1,0 +1,9 @@
+km = float(input("Enter the distance in kilometers : "))
+m = km * 1000
+cm = km * 100000
+ft = km * 3280.839895
+inches = km * 39370.0787
+print("Distance in meters = {}".format(m))
+print("Distance in centimeters = {}".format(cm))
+print("Distance in feet = {}".format(ft))
+print("Distance in inches = {}".format(inches))
