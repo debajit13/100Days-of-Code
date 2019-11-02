@@ -1,0 +1,32 @@
+nav {
+  background-color: yellow;
+  text-align: center;
+}
+
+header {
+  background-color: green;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 5px;
+  text-align: left;
+  color: blue;
+  background-color: pink;
+}
+
+tr, td {
+  background-color: darkgray;
+}
+
+h2 {
+  color: brown;
+  text-decoration-line: underline;
+}
+
+body {
+  background-color: silver;
+}
