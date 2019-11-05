@@ -1,5 +1,5 @@
 body {
-	background: url('../images/cookie-monster.jpg');
+	background: url('../images/backgroundImage.png');
 	background-position: center;
 	background-attachment: fixed;
 	-webkit-background-size: cover; 
@@ -10,7 +10,7 @@ body {
 }
 
 #container {
-	background: grey;
+	background: deeppink;
 	width: 424px;
 	color: white;
 	padding: 15px;
@@ -30,4 +30,8 @@ h2 {
 	color: black;
 	padding: 5px;
 	border-radius: 5px;
+}
+
+p {
+	text-align: justify;
 }
