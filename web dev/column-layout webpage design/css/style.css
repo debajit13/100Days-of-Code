@@ -17,14 +17,26 @@
 	clear: both;
 }
 
+.alignleft {
+	float: left;
+	margin: 0 15px 15px 0;
+}
 
+.alignright {
+	float: right;
+	margin: 0 0 15px 15px;
+}
+
+img {
+	float: right;
+}
 
 /*----------------------------------------------------------------------------- 
 =02 LAYOUT 
 -----------------------------------------------------------------------------*/
 
 #container {
-	width: 900px;
+	width: 1000px;
 	margin: 0 auto 0 auto;
 }
 
@@ -36,15 +48,15 @@
 #main {
 	background: skyblue;
 	padding: 50px;
-	width: 500px;
+	width: 700px;
 	float: left;
 }
 
 #sidebar {
 	background: pink;
-	width: 400px;
+	width: 300px;
 	float: left;
-	padding: 50px
+	padding: 50px;
 }
 
 #footer {

@@ -1,0 +1,86 @@
+/* 
+Project Name: Monthly Resolutions
+Client: One Month
+Author: Debajit Mallick | @MallickDebajti
+*/
+
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clear {
+	clear: both;
+}
+
+.gray {
+	color: gray;
+}
+
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
+body {
+ background: url('../images/notebook.png'); /* add a fallback color of #d6d6d6 */
+ color: #000000;
+ font-family: 'Lato', sans-serif;
+ line-height: 1.7; /* line-height is unit-less */
+ font-size: 100%;
+}  
+/*----------------------------------------------------------------------------- 
+03=MAIN  
+-----------------------------------------------------------------------------*/
+#container {
+	margin: 0 auto 0 auto;
+	width: 1000px;
+}
+
+#container #main {
+	background: white;
+	width: 700px;
+	float: left;
+	padding: 15px; 
+}
+
+#sidebar {
+	background: white;
+	float: left;
+	width: 300px;
+	padding: 50px;
+	margin-left: 40px;
+	box-shadow: -5px 10px #888888;
+}
+
+#footer {
+	
+}
+
+a {
+	color: red;
+	text-decoration: none;
+}
+
+#sidebar img {
+	border-radius: 50%;
+}
+
+blockquote {
+    margin: 0;
+}
+
+blockquote p {
+    padding: 15px;
+    background: #eee;
+    border-radius: 5px;
+}
+
+blockquote p::before {
+    content: '\201C';
+}
