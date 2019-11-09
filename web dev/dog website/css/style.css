@@ -1,0 +1,21 @@
+#container {
+	background: lightpink;
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	color: brown;
+}
+
+h2 {
+	color: green;
+}
+
+p {
+	text-align: left;
+}
+
+img {
+	border-radius: 10px;
+}
