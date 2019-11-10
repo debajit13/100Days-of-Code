@@ -4,8 +4,13 @@
 
 
 body {
-  background: #DDD;
+  background: url('../images/space-background.png');
   font-family: 'Open Sans', arial, sans-serif;
+
+  /* Full Page Background Receipe */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 * {
@@ -21,7 +26,7 @@ body {
 }
 
 p {
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.75;
   margin-bottom: 28px;
 }
@@ -48,11 +53,11 @@ h1, h2 {
 
 h1 {
 
-  font-size: 16px;
+  font-size: 2.5rem;
 }
 
 h2 {
-  font-size: 32px;
+  font-size: 2rem;
 }
 
 /*
@@ -64,12 +69,46 @@ h2 {
   margin: 100px auto;
 }
 
+.hero {
+  line-height: 0;
+}
+
 .hero img {
   width: 100%;
   border-radius: 20px 20px 0 0;
 }
 
+/*
+ * Section Styles
+*/
+
+section.intro, section.contact  {
+  padding: 40px;
+}
+
+section.intro {
+  background: #FFF;
+}
+
+section.contact {
+  background: #e6e9ea;
+}
 
 
+/*
+ * Aside Styles
+*/
 
+aside.left {
+  float: left;
+}
+
+aside.right {
+  float: right;
+}
+
+aside {
+  margin-right: 1.5rem;
+  margin-bottom: 0.625rem;
+}
 
