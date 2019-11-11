@@ -25,6 +25,10 @@ body {
   clear: both;
 }
 
+/*
+ * Paragraph Styles
+*/
+
 p {
   font-size: 1rem;
   line-height: 1.75;
@@ -35,6 +39,10 @@ strong {
   font-weight: bold;
 }
 
+/*
+ * List Styles
+*/
+
 ul li {
   list-style: decimal inside;
 }
@@ -42,7 +50,6 @@ ul li {
 /*
  * Heading Styles
 */
-
 
 h1, h2 {
   font-family: 'Lobster', cursive;
@@ -68,6 +75,10 @@ h2 {
   width: 600px;
   margin: 100px auto;
 }
+
+/*
+ * Hero Styles
+*/
 
 .hero {
   line-height: 0;
